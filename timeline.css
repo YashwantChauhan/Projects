@@ -1,0 +1,2558 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #add8e6;
+}
+
+header{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 1.7rem auto 0 auto;
+    width: 60%;
+    user-select: none;
+
+}
+
+header h1{
+
+    font-family: 'Poppins';
+    color: orange;
+    font-size: 6.0rem;
+    text-align: center;
+    text-shadow: 0.2rem 0.2rem 0.2rem black;
+    transition: transform 0.15s ease-in-out;
+
+}
+
+header h1:hover{
+    transform: scale(1.1);
+}
+
+header p{
+
+   display: flex; 
+   justify-content: flex-end;
+   font-size: 2rem;
+   color: red; 
+   font-style: italic;
+   font-weight: 200;
+   align-self: flex-end;
+   transition: transform 0.8s ease-in-out; 
+  
+
+}
+
+header p:hover{
+    transform: translateX(-50rem);
+}
+
+
+.wrapper{
+    margin: 120px 0px 100px 120px;
+    width: 1200px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.timeline{
+    
+    height: 100vh;
+    width: 1rem;
+    position: absolute;
+    left: 70px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+.stop-1{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 66px;
+    top: -3px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.stop-1::after{
+
+    content: 'Sem 1 July 2018';
+    height: 50px; 
+    width: 100px; 
+    position: absolute;
+    right: 130%;
+    top: -16px;
+    text-align: center;
+    font-size: 23px;
+}
+.stop-11{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 264px;
+    top: -3px;
+    box-sizing: border-box;
+    z-index: 2;
+}   
+
+.stop-11::after{
+
+    content: 'July   2018';
+    position: absolute;
+    bottom: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.stop-11-pseudo-wrapper{
+    visibility: hidden;
+}
+
+.stop-13-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-14-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-15-pseudo-wrapper{
+    visibility: hidden;
+}
+
+.stop-11-pseudo-wrapper::after{
+     
+    content : 'Induction into Army Institute of Technonlogy! Date: 4 July 2018'; 
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 120px;
+    position: absolute;
+    top: 200%;
+    left: -90px;
+    background-color: #9fc7d4;
+}
+
+.stop-11-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: transparent transparent #9fc7d4 transparent; 
+    top: 75%;
+    left: -3px;
+    
+}
+
+.stop-12{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 462px;
+    top: -3px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-12::after{
+
+    content: 'August 2018';
+    position: absolute;
+    bottom: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.stop-12-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-12-pseudo-wrapper::after{
+     
+    content : 'Cultural Aakriti 2k18-19! Date: 26 August 2018'; 
+    display: flex;
+    align-items: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-12-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: transparent transparent #9fc7d4 transparent; 
+    top: 75%;
+    left: -3px;
+    
+}
+
+.stop-13{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 660px;
+    top: -3px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-13::after{
+
+    content: 'September 2018';
+    position: absolute;
+    bottom: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-13-pseudo-wrapper::after{
+     
+    content : 'Technical Board 2018 Fe Members Interview'; 
+    display: flex;
+    align-items: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-13-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: transparent transparent #9fc7d4 transparent; 
+    top: 75%;
+    left: -3px;
+    
+}
+.stop-14{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 858px;
+    top: -3px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-14::after{
+
+    content: 'October 2018';
+    position: absolute;
+    bottom: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-14-pseudo-wrapper::after{
+     
+    content : 'Nothing special. Struggle between Rahul Classes and Basketball'; 
+    display: flex;
+    align-items: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+    width: 300px; 
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-14-pseudo-wrapper::before{
+
+    content:'';
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: transparent transparent #9fc7d4 transparent; 
+    top: 75%;
+    left: -3px;
+    
+}
+.stop-15{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 1050px;
+    top: -3px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-15::after{
+
+    content: 'November 2018';
+    position: absolute;
+    bottom: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-15-pseudo-wrapper::after{
+     
+    
+    width: 300px; 
+    height: 120px;
+    content : 'Submissions for Sem1 :( ,First holidays :D , and then exams 8-( '; 
+    display: flex;
+    align-items: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+    width: 300px; 
+    background-color: black;
+    position: absolute;
+    top: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-15-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: transparent transparent #9fc7d4 transparent; 
+    top: 75%;
+    left: -3px;
+    
+}
+
+.stop-1-wrapper{
+    visibility: hidden;
+}
+
+.stop-1-expand{
+
+    position: absolute;
+    top: 1px;
+    left: 66px;
+    height: 1rem;
+    background-color: white;
+    width: 83%;
+    border-radius: 20px;
+
+}
+
+
+.stop-2{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 66px;
+    top: 120px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.stop-2::after{
+
+    content: 'Sem 2 Jan. 2019';
+    height: 50px; 
+    width: 100px; 
+    position: absolute;
+    right: 130%;
+    top: -16px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.stop-21{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 264px;
+    top: 120px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-21::after{
+
+    content: 'Jan.   2019';
+    position: absolute;
+    bottom: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-21-pseudo-wrapper::after{
+     
+    content : 'Technical Aakriti 2k18-19! Date:  10 jan 2019'; 
+    display: flex;
+    align-items: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-21-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: transparent transparent #9fc7d4 transparent; 
+    top: 75%;
+    left: -3px;
+}
+
+.stop-21-pseudo-wrapper{
+    visibility: hidden;
+}
+
+.stop-22{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 462px;
+    top: 120px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-22::after{
+
+    content: 'Feb   2019';
+    position: absolute;
+    bottom: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-22-pseudo-wrapper::after{
+     
+    content : 'Amethyst, Solutions, Pace 2k18-19! Date: 15 Feb 2019'; 
+    display: flex;
+    align-items: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-22-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: transparent transparent #9fc7d4 transparent; 
+    top: 75%;
+    left: -3px;
+}
+
+.stop-22-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-23{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 660px;
+    top: 120px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-23-pseudo-wrapper::after{
+     
+    content : 'Focus on Studies. Cycling Trips and Treats.'; 
+    display: flex;
+    align-items: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-23-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: transparent transparent #9fc7d4 transparent; 
+    top: 75%;
+    left: -3px;
+}
+
+.stop-23-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-23::after{
+
+    content: 'March   2019';
+    position: absolute;
+    bottom: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-24{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 858px;
+    top: 120px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-24-pseudo-wrapper::after{
+     
+    content : 'Studies, Sports, Normal Life'; 
+    display: flex;
+    align-items: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-24-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: transparent transparent #9fc7d4 transparent; 
+    top: 75%;
+    left: -3px;
+}
+
+.stop-24-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-24::after{
+
+    content: 'April   2019';
+    position: absolute;
+    bottom: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-25{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 1050px;
+    top: 120px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-25-pseudo-wrapper::after{
+     
+    content : 'Term end. Holidays :D and Then Exams :( '; 
+    display: flex;
+    align-items: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-25-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: transparent transparent #9fc7d4 transparent; 
+    top: 75%;
+    left: -3px;
+}
+
+.stop-25-wseudo-wrapper{
+    visibility: hidden;
+}
+.stop-25::after{
+
+    content: 'May   2019';
+    position: absolute;
+    bottom: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.stop-2-wrapper{
+    visibility: hidden;
+}
+
+.stop-2-expand{
+
+    position: absolute;
+    top: 123px;
+    left: 66px;
+    height: 1rem;
+    background-color: white;
+    width: 83%;
+    border-radius: 20px;
+
+}
+
+
+
+.stop-3{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 66px;
+    top: 243px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.stop-3::after{
+
+    content: 'Sem 3 July 2019';
+    height: 50px; 
+    width: 100px; 
+    position: absolute;
+    right: 130%;
+    top: -16px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.stop-31{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 264px;
+    top: 243px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-31-pseudo-wrapper::after{
+     
+    content : 'Second Year Begins! Fes Induction 2k19!'; 
+    display: flex;
+    align-items: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-31-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: transparent transparent #9fc7d4 transparent; 
+    top: 75%;
+    left: -3px;
+}
+
+.stop-31-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-31::after{
+
+    content: 'July 2019';
+    position: absolute;
+    bottom: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.stop-32{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 462px;
+    top: 243px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-32-pseudo-wrapper::after{
+     
+    content : ' Cultural Aakrirt 2k19-20 !!'; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-32-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: transparent transparent #9fc7d4 transparent; 
+    top: 75%;
+    left: -3px;
+}
+
+.stop-32-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-32::after{
+
+    content: 'August 2019';
+    position: absolute;
+    bottom: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.stop-33{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 660px;
+    top: 243px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-33-pseudo-wrapper::after{
+     
+    content : 'Technical Board 2k19-20 Se Interviews '; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-33-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: transparent transparent #9fc7d4 transparent; 
+    top: 75%;
+    left: -3px;
+}
+
+.stop-33-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-33::after{
+
+    content: 'September 2019';
+    position: absolute;
+    bottom: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.stop-34{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 858px;
+    top: 243px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-34-pseudo-wrapper::after{
+     
+    content : 'Hackathons, Pubg Tournaments, Sponsorship fishings. '; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-34-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: transparent transparent #9fc7d4 transparent; 
+    top: 75%;
+    left: -3px;
+}
+
+.stop-34-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-34::after{
+
+    content: 'October 2019';
+    position: absolute;
+    bottom: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.stop-35{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 1050px;
+    top: 243px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-35-pseudo-wrapper::after{
+     
+    content : 'Term end, Submissions and Holidays :D'; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-35-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: transparent transparent #9fc7d4 transparent; 
+    top: 75%;
+    left: -3px;
+}
+
+.stop-35-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-35::after{
+
+    content: 'November 2019';
+    position: absolute;
+    bottom: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.stop-3-wrapper{
+    visibility: hidden;
+}
+
+
+.stop-3-expand{
+
+    position: absolute;
+    top: 247px;
+    left: 66px;
+    height: 1rem;
+    background-color: white;
+    width: 83%;
+    border-radius: 20px;
+
+}
+
+
+
+.stop-4{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 66px;
+    top: 366px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-4::after{
+
+    content: 'Sem 4 Jan. 2020';
+    height: 50px; 
+    width: 100px; 
+    position: absolute;
+    right: 130%;
+    top: -16px;
+    text-align: center;
+    font-size: 23px;
+}
+
+
+.stop-41{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 264px;
+    top: 366px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-41-pseudo-wrapper::after{
+     
+    content : 'Technical Aakriti 2k20 . Shadows of the Coronavirus'; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-41-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: transparent transparent #9fc7d4 transparent; 
+    top: 75%;
+    left: -3px;
+}
+
+.stop-41-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-41::after{
+
+    content: 'Jan 2020';
+    position: absolute;
+    bottom: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.stop-42{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 462px;
+    top: 366px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-42::after{
+
+    content: 'Feb 2020';
+    position: absolute;
+    bottom: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-42-pseudo-wrapper::after{
+     
+    content : 'Solutions 2k20. Coronavirus alerts India and Precautions are taken everywhere'; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-42-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: transparent transparent #9fc7d4 transparent; 
+    top: 75%;
+    left: -3px;
+}
+
+.stop-42-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-43{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 660px;
+    top: 366px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-43::after{
+
+    content: 'March 2020';
+    position: absolute;
+    bottom: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-43-pseudo-wrapper::after{
+     
+    content : 'Lockdown Starts everybody Hurrys Home!!'; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-43-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: transparent transparent #9fc7d4 transparent; 
+    top: 75%;
+    left: -3px;
+}
+
+.stop-43-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-44{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 858px;
+    top: 366px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-44::after{
+
+    content: 'April 2020';
+    position: absolute;
+    bottom: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-44-pseudo-wrapper::after{
+     
+    content : 'Lockdown extends, We are forced to remain indors. Online studies initiated everywhere'; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-44-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: transparent transparent #9fc7d4 transparent; 
+    top: 75%;
+    left: -3px;
+}
+
+.stop-44-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-45{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 1050px;
+    top: 366px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-45::after{
+
+    content: 'May 2020';
+    position: absolute;
+    bottom: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-45-pseudo-wrapper::after{
+     
+    content : 'Online Teaching Continues. Assignments, Tests conducted Online'; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-45-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: transparent transparent #9fc7d4 transparent; 
+    top: 75%;
+    left: -3px;
+}
+
+.stop-45-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-4-wrapper{
+    visibility: hidden;
+}
+
+
+.stop-4-expand{
+
+    position: absolute;
+    top: 371px;
+    left: 66px;
+    height: 1rem;
+    background-color: white;
+    width: 83%;
+    border-radius: 20px;
+
+}
+
+
+
+
+.stop-5{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 66px;
+    top: 489px;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+.stop-5::after{
+
+    content: 'Sem 5 July 2020';
+    height: 50px; 
+    width: 100px; 
+    position: absolute;
+    right: 130%;
+    top: -16px;
+    text-align: center;
+    font-size: 23px;
+}
+.stop-51{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 264px;
+    top: 489px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-51::after{
+
+    content: 'July 2020';
+    position: absolute;
+    top: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-51-pseudo-wrapper::after{
+     
+    content : 'Lockdown Keeps Extending Our Third Year Starts!!'; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    bottom: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-51-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: #9fc7d4 transparent transparent transparent; 
+    bottom: 75%;
+    left: -3px;
+}
+
+.stop-51-pseudo-wrapper{
+    visibility: hidden;
+}
+
+.stop-52{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 462px;
+    top: 489px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-52::after{
+
+    content: 'August 2020';
+    position: absolute;
+    top: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-52-pseudo-wrapper::after{
+     
+    content : 'Online Studies continue.. Online interviews,meetings starts!!'; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    bottom: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-52-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: #9fc7d4 transparent transparent transparent; 
+    bottom: 75%;
+    left: -3px;
+}
+
+.stop-52-pseudo-wrapper{
+    visibility: hidden;
+}
+
+.stop-53{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 660px;
+    top: 489px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-53::after{
+
+    content: 'September 2020';
+    position: absolute;
+    top: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-53-pseudo-wrapper::after{
+     
+    content : 'Online Hackathons, Coding Events, Sports activities starts , hints of a new normal'; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    bottom: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-53-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: #9fc7d4 transparent transparent transparent; 
+    bottom: 75%;
+    left: -3px;
+}
+
+.stop-53-pseudo-wrapper{
+    visibility: hidden;
+}
+
+.stop-54{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 858px;
+    top: 489px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-54::after{
+
+    content: 'October 2020';
+    position: absolute;
+    top: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-54-pseudo-wrapper::after{
+     
+    content : 'Social Distancing, Masks became new normals, Online classes continued..'; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    bottom: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-54-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: #9fc7d4 transparent transparent transparent; 
+    bottom: 75%;
+    left: -3px;
+}
+
+.stop-54-pseudo-wrapper{
+    visibility: hidden;
+}
+
+.stop-55{
+    
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 1050px;
+    top: 489px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.stop-55::after{
+
+    content: 'November 2020';
+    position: absolute;
+    top: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-55-pseudo-wrapper::after{
+     
+    content : 'Companies offer internships online, Job Interview happen online, Corona Vaccine at high demand'; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    background-color: black;
+    position: absolute;
+    bottom: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-55-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: #9fc7d4 transparent transparent transparent; 
+    bottom: 75%;
+    left: -3px;
+}
+
+.stop-55-pseudo-wrapper{
+    visibility: hidden;
+}
+
+
+.stop-5-wrapper{
+    visibility: hidden;
+}
+
+.stop-5-expand{
+
+    position: absolute;
+    top: 494px;
+    left: 66px;
+    height: 1rem;
+    background-color: white;
+    width: 83%;
+    border-radius: 20px;
+
+}
+
+.stop-6{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 66px;
+    top: 612px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.stop-6::after{
+
+    content: 'Sem 6 Jan 2021';
+    height: 50px; 
+    width: 100px; 
+    position: absolute;
+    right: 130%;
+    top: -16px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.stop-61{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 264px;
+    top: 612px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.stop-61::after{
+
+    content: 'Jan 2021';
+    position: absolute;
+    top: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-61-pseudo-wrapper::after{
+     
+    content : 'Online Technical Aakriti 2021, Covi-Shield developed and vaccination starts in India!!'; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    background-color: black;
+    position: absolute;
+    bottom: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-61-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: #9fc7d4 transparent transparent transparent; 
+    bottom: 75%;
+    left: -3px;
+}
+
+.stop-61-pseudo-wrapper{
+    visibility: hidden;
+}
+
+.stop-62{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 462px;
+    top: 612px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.stop-62::after{
+
+    content: 'Feb 2021';
+    position: absolute;
+    top: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-62-pseudo-wrapper::after{
+     
+    content : 'News of exams, reopening of colleges circulates. AIT opens hostels for incoming students.'; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    background-color: black;
+    position: absolute;
+    bottom: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-62-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: #9fc7d4 transparent transparent transparent; 
+    bottom: 75%;
+    left: -3px;
+}
+
+.stop-62-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-63{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 660px;
+    top: 612px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.stop-63::after{
+
+    content: 'March 2021';
+    position: absolute;
+    top: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-63-pseudo-wrapper::after{
+     
+    content : 'Coronavirus still prevails. India Fighhts and this is the new normal!!'; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    background-color: black;
+    position: absolute;
+    bottom: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-63-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: #9fc7d4 transparent transparent transparent; 
+    bottom: 75%;
+    left: -3px;
+}
+
+.stop-63-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-64{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 858px;
+    top: 612px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.stop-64::after{
+
+    content: 'April 2021';
+    position: absolute;
+    top: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-64-pseudo-wrapper::after{
+     
+    content : '...'; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    background-color: black;
+    position: absolute;
+    bottom: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-64-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: #9fc7d4 transparent transparent transparent; 
+    bottom: 75%;
+    left: -3px;
+}
+
+.stop-64-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-65{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 1050px;
+    top: 612px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+
+.stop-65::after{
+
+    content: 'May 2021';
+    position: absolute;
+    top: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-65-pseudo-wrapper::after{
+     
+    content : '...'; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    background-color: black;
+    position: absolute;
+    bottom: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-65-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: #9fc7d4 transparent transparent transparent; 
+    bottom: 75%;
+    left: -3px;
+}
+
+.stop-65-pseudo-wrapper{
+    visibility: hidden;
+}
+
+.stop-6-wrapper{
+    visibility: hidden;
+}
+
+
+.stop-6-expand{
+
+    position: absolute;
+    top: 616px;
+    left: 66px;
+    height: 1rem;
+    background-color: white;
+    width: 83%;
+    border-radius: 20px;
+
+}
+
+
+.stop-7{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 66px;
+    bottom: -3px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-7::after{
+
+    content: 'Sem 7 In 3 months..';
+    height: 50px; 
+    width: 100px; 
+    position: absolute;
+    right: 130%;
+    top: -25px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.stop-71{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 264px;
+    bottom: -3px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.stop-71::after{
+
+    content: '...';
+    position: absolute;
+    top: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-71-pseudo-wrapper::after{
+     
+    content : '...'; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    background-color: black;
+    position: absolute;
+    bottom: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-71-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: #9fc7d4 transparent transparent transparent; 
+    bottom: 75%;
+    left: -3px;
+}
+
+.stop-71-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-72{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 462px;
+    bottom: -3px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-72::after{
+
+    content: '...';
+    position: absolute;
+    top: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-72-pseudo-wrapper::after{
+     
+    content : '...'; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    background-color: black;
+    position: absolute;
+    bottom: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-72-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: #9fc7d4 transparent transparent transparent; 
+    bottom: 75%;
+    left: -3px;
+}
+
+.stop-72-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-73{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 660px;
+    bottom: -3px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-73::after{
+
+    content: '...';
+    position: absolute;
+    top: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-73-pseudo-wrapper::after{
+     
+    content : '...'; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    background-color: black;
+    position: absolute;
+    bottom: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-73-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: #9fc7d4 transparent transparent transparent; 
+    bottom: 75%;
+    left: -3px;
+}
+
+.stop-73-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-74{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 858px;
+    bottom: -3px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-74::after{
+
+    content: '...';
+    position: absolute;
+    top: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-74-pseudo-wrapper::after{
+     
+    content : '...'; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    background-color: black;
+    position: absolute;
+    bottom: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-74-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: #9fc7d4 transparent transparent transparent; 
+    bottom: 75%;
+    left: -3px;
+}
+
+.stop-74-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-75{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: flex-start;
+    position: absolute;
+    left: 1050px;
+    bottom: -3px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.stop-75::after{
+
+    content: '...';
+    position: absolute;
+    top: 120%;
+    width: 150px;
+    left: -60px;
+    text-align: center;
+    font-size: 22px;
+}
+.stop-75-pseudo-wrapper::after{
+     
+    content : '...'; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px; 
+    background-color: black;
+    position: absolute;
+    bottom: 200%;
+    left: -140px;
+    background-color: #9fc7d4;
+}
+
+.stop-75-pseudo-wrapper::before{
+
+    content: ''; 
+    position: absolute;
+    bottom: 100%;
+    border: 10px solid;
+    border-color: #9fc7d4 transparent transparent transparent; 
+    bottom: 75%;
+    left: -3px;
+}
+
+.stop-75-pseudo-wrapper{
+    visibility: hidden;
+}
+.stop-7-wrapper{
+
+    visibility: hidden;
+    transition: visibility 0.15s ease-in-out;
+} 
+
+.stop-7-expand{
+
+    position: absolute;
+    bottom: 2px;
+    left: 66px;
+    height: 1rem;
+    background-color: white;
+    width: 83%;
+    border-radius: 20px;
+
+}
+
+.click{
+    transition: background-color 0.15s ease-in-out;
+    border: 2px solid white;
+}
+
+.click:hover{
+    background-color: darkblue;
+}
+
+.onclick-blue{
+    background-color: darkblue;
+    transform: scale(1.1);
+}
+
+
+.filler{
+    
+    width: 100%;
+    height: 0px;
+    background-color: darkblue;
+    transition: height 0.3s ease-in-out;
+   
+}
+
+
+
+.filler-1{
+
+    width: 0px;
+    height: 100%;
+    background-color: darkblue;
+    transition: width 0.3s ease-in-out;
+    z-index: 3;
+    
+
+}
+
+
+.filler-2{
+
+    width: 0px;
+    height: 100%;
+    background-color: darkblue;
+    transition: width 0.3s ease-in-out;
+    z-index: 3;
+
+}
+
+.filler-3{
+
+    width: 0px;
+    height: 100%;
+    background-color: darkblue;
+    transition: width 0.3s ease-in-out;
+    z-index: 3;
+
+}
+.filler-4{
+
+    width: 0px;
+    height: 100%;
+    background-color: darkblue;
+    transition: width 0.3s ease-in-out;
+    z-index: 3;
+
+}
+.filler-5{
+
+    width: 0px;
+    height: 100%;
+    background-color: darkblue;
+    transition: width 0.3s ease-in-out;
+    z-index: 3;
+
+}
+
+.filler-6{
+
+    width: 0px;
+    height: 100%;
+    background-color: darkblue;
+    transition: width 0.3s ease-in-out;
+    z-index: 3;
+
+}
+
+.filler-7{
+
+    width: 0px;
+    height: 100%;
+    background-color: darkblue;
+    transition: width 0.3s ease-in-out;
+    z-index: 3;
+
+}
+
+.info{
+    
+    
+    margin: 70px auto 0px auto;
+    width: 80%;
+    color: darkblue;
+    font-size: 20px; 
+    font-style: italic;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#reload{
+
+    width: 150px;
+    padding: 2px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Poppins';
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    border: none;
+}
+
+#reload:hover{
+
+    background-color: blanchedalmond;
+}
+
+#reload:focus{
+    transform: scale(20) rotate(360deg);
+}
+

@@ -1,0 +1,150 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A Tribute page</title>
+</head>
+<style>
+  body {
+    background-color: hsl(30, 20%, 80%);
+  }
+
+  p {
+    padding: 0px;
+    margin: 0px;
+
+  }
+
+  #title {
+    font-size: 50px;
+    font-weight: 400;
+    align-self: center;
+    padding: 30px 0px 10px 0px;
+  }
+
+  .heading {
+
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #ee964e;
+
+  }
+
+  #titlecaption {
+
+    font-size: 20px;
+    width: 50%;
+    color: gray;
+    align-self: center;
+    display: flex;
+    padding: 0px 0px 10px 0px;
+    justify-content: flex-end;
+
+  }
+
+  #img-div {
+
+    width: 80%;
+
+    margin: 20px auto 10px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  img {
+    max-width: 60%;
+    max-height: 100%;
+    height: auto;
+  }
+
+  h2 {
+    margin: 50px 0px;
+    text-align: center;
+  }
+
+  ul {
+
+    max-width: 550px;
+    text-align: left;
+    line-height: 1.6;
+    margin: 0px auto 50px auto;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  li {
+    margin: 16px 0;
+  }
+  
+  a{
+    color: blue;
+  }
+  
+  a:visited{
+   color: violet;
+  }
+</style>
+
+<body>
+  <main id="main">
+
+    <div class="heading">
+      <p id="title">Narendra Damodardas Modi</p>
+      <p id="titlecaption">
+        <em>-Honorable Prime Minister of India</em>
+      </p>
+    </div>
+    <div id="img-div">
+      <img id="image" src="modi.jpg" alt="Prime Minister of India">
+      <p id="img-caption" style="margin: 10px; font-family: Arial, Helvetica, sans-serif; font-size: 20px;"> Prime
+        Minister Hon. Narendra Modi addressing the Nation. </p>
+    </div>
+
+    <div id="tribute-info">
+
+      <h2>A Sneak Peek into the life of Narendra Modi</h2>
+      <ul>
+        <li>
+          Was the <b> Chief Minister of Gujrat </b> for 15 years.
+        </li>
+        <li>
+          In 2014 became the <b>Prime Minister of India</b>.
+        </li>
+        <li>
+          Brought revolutionary changes such as:
+          <ul>
+            <li> Digital India </li>
+            <li>Triple Talak</li>
+            <li>Abolishing article 360</li>
+          </ul>
+        </li>
+        <li>
+          Shows Tremendous respect for army and Mother-India. Reconstruction of various lost temples of India, including <b>The Ram Mandir </b> in Ayodhya.
+        </li>
+        <li>
+          Promoted Yoga
+        </li>
+        <li>
+          Promoted Cleanliness, Digitalization.
+        </li>
+
+      </ul>
+      
+      <h2> To Know More about him <a target="_blank" href="https://en.wikipedia.org/wiki/Narendra_Modi" id="tribute-link">Follow this link</a></h2>
+
+    </div>
+  </main>
+
+</body>
+
+</html>
