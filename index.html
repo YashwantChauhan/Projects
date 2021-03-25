@@ -7,339 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="Portfolio.css">
-    <style>
-        @import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
-
-:root {
-    --light-blue: #ADD8E6;
-    --medium-blue: rgb(0, 204, 255);
-    --dark-blue: rgba( 27, 27, 50, 0.8 );
-}
-
-*{
-    margin: 0; 
-    padding: 0; 
-}
-
-html{
-    
-   
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-}
-
-.top-border{
-    position: fixed; 
-    top : 0; 
-    left: 0;
-    background-color: var(--medium-blue);
-    height: 0.2vw; 
-    width: 100%;  
-    box-shadow: 0 0 2px 1px black ;
-
-}
-
-.right-border{
-    position: fixed; 
-    right: 0;
-    top: 0; 
-    height: 100%;
-    width: 0.2vw; 
-    background-color: var(--medium-blue);
-    box-shadow: 0 0 2px 1px black ;
-}
-
-
-.nav-bar{
-
-    position: fixed; 
-    right: 0;
-    top: 0;
-    margin-top: -10px;
-    margin-right: -10px;
-    height: 10%; 
-    background-color: var(--medium-blue);
-    width: 45%;
-    border-radius: 13px;
-    box-shadow: 0 0 2px 1px black ;
-    border: 1px solid var(--dark-blue);
-}
-@media (max-width: 1353px){
-    .nav-bar{
-        height: 10%;
-        width: 60%;
-    }
-
-    html{
-        font-size: 60%;
-    }
-}
-
-@media (max-width: 730px){
-    .nav-bar{
-
-        height: 12%; 
-        width: 100%;
-        border-radius: 0%;
-        margin: 0;
-    }
-    html{
-        font-size: 50%;
-    }
-}
-
-@media (max-width: 300px){
-    html{
-        font-size: 30%;
-    }
-}
-
-.nav-bar ul{
-    
-    display: flex; 
-    justify-content: space-evenly;
-    align-items: stretch;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-
-}
-
-.nav-bar li{
-
-    font-size: 2.2em;
-    color: red;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    box-sizing: border-box;
-    transition: background-color 0.3s ease-in-out;
-    
-
-}
-
-
-.nav-bar li a{
-
-    text-decoration: none;
-    color: var(--dark-blue);
-    padding: 1.5em;
-    font-family: 'Poppins';
-}
-
-@media (max-width: 300px){
-    .nav-bar li a{
-        padding: 1.3em;
-    }
-}
-
-.nav-bar li:hover{
-
-    background-color: var(--dark-blue);
-    border: 1px solid white;
-    cursor: pointer;
-   
-}
-
-.nav-bar li:hover a{
-    color: white;
-}
-
-
-#welcome-section{
-    width: 100%;
-    height: 100vh;
-    background-color: var(--light-blue);
-    z-index: -1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#projects{
-
-    width: 100%;
-    background-color: var(--dark-blue);
-    z-index: -1;
-    padding: 10em 10em;
-    box-sizing: border-box;
-    
-
-}
-
-.project-grid{
-
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax( 360px, 1fr ));
-    grid-column-gap: 4em ;
-    grid-row-gap: 5em;
-    width: 100%;
-    max-width: 100%;
-
-}
-
-.heading{
-
-    
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    max-width: 100%;
-
-
-}
-
-.heading h1{
-
-    color: hsl( 16 , 90%, 50% );
-    font-weight: 700;
-    font-size: 7.2rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 1px 1px 1px black;
-    text-align: center;
-    margin: 0;
-    max-width: 100%;
-}
-
-.heading p{
-   
-    font-style: italic;
-    font-weight: 200px;
-    font-size: 3rem;
-    margin: 10px 0px 0px 0px;
-    text-align: center;
-    color: var(--dark-blue);
-    
-}
-
-#contact{
-
-    width: 100%;
-    background-color: var(--light-blue);
-    padding: 0.2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.project-tile{
-    background-color: green;
-    height: 400px;
-    max-width: 100%;
-}
-
-.project-header{
-
-    text-align: center;
-    margin-bottom: 10em;
-
-}
-
-.project-header h2{
-
-    font-family: 'Poppins';
-    color: white;
-    font-size: 5.2rem;
-}
-
-
-
-
-#contact h1{
- 
-        margin-top: 7rem;
-        color: hsl( 16 , 90%, 50% );
-        font-weight: 700;
-        font-size: 7.2rem;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-shadow: 1px 1px 1px black;
-        text-align: center;
-        max-width: 100%;
-       
-
-}  
-
-
-#contact p{
-       
-        font-style: italic;
-        font-weight: 200px;
-        font-size: 3rem;
-        margin: 10px 0px 0px 0px;
-        text-align: center;
-        color: var(--dark-blue);
-        
-    }
-
-.contact-palette{
-
-    display: flex;
-    margin-top: 3em;
-    width: 80%;
-    flex-wrap: wrap;
-    
-
-}
-
-.contact-palette ul{
-    
-    height: 100%;
-    width: 100%;
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-    
-}
-
-.contact-palette li{
-
-    padding: 0.2rem;
-    font-size: 3em;
-    text-decoration: none;
-    box-sizing: border-box;
-    padding: 2rem 2rem;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    
-
-}
-
-.contact-palette li a{
-    text-decoration: none;
-    color: var(--dark-blue);
-    font-weight: 200;
-    text-shadow: 0.01rem 0.01rem 0.01rem black;
-    transition: transform 0.15s ease-in-out;
-    box-sizing: border-box;
-}
-
-.contact-palette li:hover a{
-    transform: translateY(2px);
-}
-
-@media (max-width: 500px){
-    #projects{
-        padding: 2rem 2rem;
-    }
-    .project-grid{
-        grid-template-columns: 1fr;
-    }
-    #contact h1{
-        margin-top: 2rem;
-    }
-}
-    </style>
 </head>
 
 <body>
@@ -379,12 +46,82 @@ html{
             </div>
 
             <div class="project-grid">
-                <div class="project-tile"> </div>
-                <div class="project-tile"> </div>
-                <div class="project-tile"> </div>
-                <div class="project-tile"> </div>
-                <div class="project-tile"> </div>
-                <div class="project-tile"> </div>
+                <a href="C:\Users\Yashw\MyFrontdevelopment\6. Interactive Timeline\Timeline.html" target="_blank">
+                    <div class="project-tile red">
+                        <div class="project-tile-header-cover">
+                         
+                        </div>
+                        <div class="project-tile-header-content">
+                            <p style="text-align: center;">A Jquery based project depicting my journey at Army Institute of Technology.</p>
+                            <p>Other technologies used:</p>
+                            <p>1. HTML5</p>
+                            <p>2. CSS3</p>
+                        </div>
+                        <div class="project-tile-header">
+                            <img src="timeline.PNG">
+                        </div>
+                        <div class="project-tile-footer">
+                            <p>Interactive Timeline </p>
+                        </div>    
+                    </div>   
+                </a>
+                <a href="C:\Users\Yashw\MyFrontdevelopment\1. Tribute Page\tribute.html" target="_blank">
+                    <div class="project-tile pink">
+                        <div class="project-tile-header-cover" style="background-color: pink;">
+                         
+                        </div>
+                        <div class="project-tile-header-content">
+                            <p style="text-align: center;">Tribute to our Honorable Prime Minister for being a constant source of motivation. </p>
+                            <p>Technologies used:</p>
+                            <p>1. HTML5</p>
+                            <p>2. CSS3</p>
+                        </div>
+                        <div class="project-tile-header">
+                            <img src="tribute.png">
+                        </div>
+                        <div class="project-tile-footer">
+                            <p>Tribute Page</p>
+                        </div>    
+                    </div>   
+                </a>
+                <a href="C:\Users\Yashw\MyFrontdevelopment\6. Interactive Timeline\Timeline.html" target="_blank">
+                    <div class="project-tile rose">
+                        <div class="project-tile-header-cover" style="background-color: #DCAE96;">
+                         
+                        </div>
+                        <div class="project-tile-header-content">
+                            <p style="text-align: center;">A Jquery based project depicting my journey at Army Institute of Technology.</p>
+                            <p>Other technologies used:</p>
+                            <p>1. HTML5</p>
+                            <p>2. CSS3</p>
+                        </div>
+                        <div class="project-tile-header">
+                            <img src="tribute.png">
+                        </div>
+                        <div class="project-tile-footer">
+                            <p>Tribute Page</p>
+                        </div>    
+                    </div>   
+                </a>
+                <a href="C:\Users\Yashw\MyFrontdevelopment\6. Interactive Timeline\Timeline.html" target="_blank">
+                    <div class="project-tile rose">
+                        <div class="project-tile-header-cover" style="background-color: #DCAE96;">
+                         
+                        </div>
+                        <div class="project-tile-header-content">
+                            <p style="text-align: center;">A Jquery based project depicting my journey at Army Institute of Technology.</p>
+                            <p>Other technologies used:</p>
+                            <p>1. HTML5</p>
+                            <p>2. CSS3</p>
+                        </div>
+                        <div class="project-tile-header">
+                            <img src="tribute.png">
+                        </div>
+                        <div class="project-tile-footer">
+                            <p>Tribute Page</p>
+                        </div>    
+                    </div>   
+                </a>
             </div>
 
         </section>
@@ -393,10 +130,11 @@ html{
 
             <h1>Let's Work Together .....</h1>
 
-            <div class="contact-palette"> 
+            <div class="contact-palette">
                 <ul>
                     <li><a href="#">Facebook</a></li>
-                    <li><a href="https://github.com/YashwantChauhan/MyFrontdevelopment" target="_blank" id="profile-link">Github</a></li>
+                    <li><a href="https://github.com/YashwantChauhan/MyFrontdevelopment" target="_blank"
+                            id="profile-link">Github</a></li>
                     <li><a href="#">LinkedIn</a></li>
                     <li><a href="#">Twitter</a></li>
                     <li><a href="#">Instagram</a></li>
